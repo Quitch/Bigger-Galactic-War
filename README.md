@@ -10,6 +10,10 @@ You may need to drag the view to find your starting location.
 
 This mod can be installed via the in-game Community Mod manager.
 
+## Translations
+
+Please help [translate Bigger Galactic War](https://poeditor.com/join/project/YVMJy6kOCQ) to your local language.
+
 ## How To Use
 
 Start a new Galactic War and you will find the new galaxy sizes on the drop down menu.
