@@ -1,13 +1,9 @@
-// Make new system sizes selectable on the size drop-down
-
 $("#game-size").append(
   '<option value="5">VAST</option>' +
     '<option value="6">GIGANTIC</option>' +
     '<option value="7">RIDICULOUS</option>' +
     '<option value="8">MARATHON</option>'
 );
-
-// Set system size settings and add them to numberOfSystems
 
 requireGW(["shared/gw_balance"], function(balance) {
   balance.numberOfSystems.push(
