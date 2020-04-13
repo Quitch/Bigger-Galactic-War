@@ -5,7 +5,7 @@ $("#game-size").append(
     '<option value="8">MARATHON</option>'
 );
 
-requireGW(["shared/gw_balance"], function(balance) {
+requireGW(["shared/gw_balance"], function (balance) {
   balance.numberOfSystems.push(
     108, // Vast
     144, // Gigantic
