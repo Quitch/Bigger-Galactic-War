@@ -1,10 +1,10 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.biggergw-dev",
-  "display_name": "Bigger Galactic War DEV",
+  "identifier": "com.pa.quitch.biggergw",
+  "display_name": "Bigger Galactic War",
   "description": "Adds larger galaxy sizes to Galactic War.",
   "author": "Quitch",
-  "version": "dev",
+  "version": "1.0",
   "build": "114555-pte",
   "date": "2020/06/25",
   "signature": " ",
