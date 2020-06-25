@@ -11,7 +11,8 @@
   },
   "extends": ["eslint:recommended", "plugin:lodash/v3", "prettier"],
   "globals": {
-    "requireGW": "readonly"
+    "requireGW": "readonly",
+    "locUpdateDocument": "readonly"
   },
   "plugins": ["lodash"],
   "rules": {

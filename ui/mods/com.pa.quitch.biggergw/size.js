@@ -4,6 +4,7 @@ $("#game-size").append(
     '<option value="7">RIDICULOUS</option>' +
     '<option value="8">MARATHON</option>'
 );
+locUpdateDocument();
 
 requireGW(["shared/gw_balance"], function (balance) {
   balance.numberOfSystems.push(
