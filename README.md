@@ -4,6 +4,8 @@ This mod works with both Planetary Annihilation and Planetary Annihilation Titan
 
 You may need to drag the view to find your starting location.
 
+If your galaxy is upside down this can be resolved via the scroll wheel.
+
 ## Installation
 
 This mod can be installed via the in-game Community Mod manager.
