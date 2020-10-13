@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v1.1 - 2020-10-13
 
 - Pointed forum link at the correct thread
 - Unlocked larger systems which appear deeper into the galaxy
