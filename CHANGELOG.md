@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Pointed forum link at the correct thread
+
 ## v1.0 - 2020-06-25
 
 - Enabled translation support
