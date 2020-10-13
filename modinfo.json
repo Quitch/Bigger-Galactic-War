@@ -2,7 +2,7 @@
   "context": "client",
   "identifier": "com.pa.quitch.biggergw-dev",
   "display_name": "Bigger Galactic War DEV",
-  "description": "Adds larger galaxy sizes to Galactic War.",
+  "description": "Adds larger galaxy sizes and systems to Galactic War.",
   "author": "Quitch",
   "version": "dev",
   "build": "114555-pte",
