@@ -14,5 +14,6 @@
   "scenes": {
     "gw_start": ["coui://ui/mods/com.pa.quitch.biggergw/size.js"]
   },
-  "priority": 100
+  "priority": 100,
+  "github": "https://github.com/Quitch/Bigger-Galactic-War"
 }
