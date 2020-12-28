@@ -1,7 +1,7 @@
-var biggerGalacticWar;
+var biggerGalacticWarLoaded;
 
-if (!biggerGalacticWar) {
-  biggerGalacticWar = true;
+if (!biggerGalacticWarLoaded) {
+  biggerGalacticWarLoaded = true;
 
   try {
     $("#game-size").append(
