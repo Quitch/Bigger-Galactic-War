@@ -10,7 +10,7 @@ if (!biggerGalacticWarLoaded) {
         '<option value="7">RIDICULOUS</option>' +
         '<option value="8">MARATHON</option>'
     );
-    locUpdateDocument();
+    locTree($("#game-size"));
 
     requireGW(["shared/gw_balance"], function (balance) {
       balance.numberOfSystems.push(

@@ -12,7 +12,7 @@
   "extends": ["eslint:recommended", "plugin:lodash/recommended", "prettier"],
   "globals": {
     "requireGW": "readonly",
-    "locUpdateDocument": "readonly"
+    "locTree": "readonly"
   },
   "plugins": ["lodash"],
   "rules": {
