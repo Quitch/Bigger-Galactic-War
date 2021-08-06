@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v1.1.1 - 2021-08-06
+## v1.2.0 - 2021-08-06
 
 - Fix large galaxies starting upside down
 - Zoom to player's location when displaying the galaxy
