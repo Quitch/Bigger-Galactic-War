@@ -4,6 +4,7 @@
 
 - Fix large galaxies starting upside down
 - Zoom to player's location when displaying the galaxy
+- Reduce maximum planet radius to 800
 
 ## v1.1 - 2020-10-13
 
