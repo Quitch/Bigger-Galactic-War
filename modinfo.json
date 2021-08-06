@@ -12,7 +12,8 @@
   "category": ["gw", "classic", "titans"],
   "icon": "https://i.imgur.com/pnodcLy.jpg",
   "scenes": {
-    "gw_start": ["coui://ui/mods/com.pa.quitch.biggergw/size.js"]
+    "gw_start": ["coui://ui/mods/com.pa.quitch.biggergw/size.js"],
+    "gw_play": ["coui://ui/mods/com.pa.quitch.biggergw/zoom.js"]
   },
   "priority": 100,
   "github": "https://github.com/Quitch/Bigger-Galactic-War"

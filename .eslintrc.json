@@ -12,7 +12,9 @@
   "extends": ["eslint:recommended", "plugin:lodash/v3", "prettier"],
   "globals": {
     "requireGW": "readonly",
-    "locTree": "readonly"
+    "locTree": "readonly",
+    "model": "readonly",
+    "_": "readonly"
   },
   "plugins": ["lodash"],
   "rules": {

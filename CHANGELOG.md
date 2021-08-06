@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Fix large galaxies starting upside down
+
 ## v1.1 - 2020-10-13
 
 - Pointed forum link at the correct thread
