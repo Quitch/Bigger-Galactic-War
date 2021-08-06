@@ -1,6 +1,6 @@
 # Bigger Galactic War
 
-This mod works with both Planetary Annihilation and Planetary Annihilation Titans. It introduces larger planets, systems, and galaxies for Galactic War. You may find your war takes longer to load at the larger sizes, especially during the initial galaxy generation so please be patient.
+This mod works with both Planetary Annihilation and Planetary Annihilation: TITANS. It introduces larger planets, systems, and galaxies for Galactic War. You may find your war takes longer to load at the larger sizes, especially during the initial galaxy generation so please be patient.
 
 ## Installation
 
