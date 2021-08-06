@@ -4,15 +4,16 @@
   "display_name": "Bigger Galactic War",
   "description": "Adds larger galaxy sizes and systems to Galactic War.",
   "author": "Quitch",
-  "version": "1.1",
-  "build": "114980",
-  "date": "2020/10/13",
+  "version": "1.2.0",
+  "build": "115938",
+  "date": "2021/08/06",
   "signature": " ",
   "forum": "https://forums.planetaryannihilation.com/threads/client-bigger-galactic-war.72818/",
   "category": ["gw", "classic", "titans"],
-  "icon": "https://i.imgur.com/pnodcLy.jpg",
+  "icon": "https://raw.githubusercontent.com/Quitch/Bigger-Galactic-War/develop/icon.jpg",
   "scenes": {
-    "gw_start": ["coui://ui/mods/com.pa.quitch.biggergw/size.js"]
+    "gw_start": ["coui://ui/mods/com.pa.quitch.biggergw/size.js"],
+    "gw_play": ["coui://ui/mods/com.pa.quitch.biggergw/zoom.js"]
   },
   "priority": 100,
   "github": "https://github.com/Quitch/Bigger-Galactic-War"
