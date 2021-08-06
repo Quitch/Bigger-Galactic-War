@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Fix large galaxies starting upside down
+- Zoom to player's location when displaying the galaxy
 
 ## v1.1 - 2020-10-13
 
