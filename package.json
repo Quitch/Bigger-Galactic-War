@@ -1,0 +1,19 @@
+{
+  "name": "bigger-galactic-war",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bigger Galactic War - Planetary Annihilation client mod",
+  "scripts": {
+    "lint:js": "eslint .",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "verify": "npm run lint:js && npm run format:check"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.6"
+  }
+}

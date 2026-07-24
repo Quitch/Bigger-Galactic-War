@@ -1,3 +1,4 @@
 
 *.dict
 .vscode/settings.json
+node_modules/
