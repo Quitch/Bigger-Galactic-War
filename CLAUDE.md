@@ -58,9 +58,8 @@ exactly the `coui://` files named there, per scene:
 - `gw_play` → `ui/mods/com.pa.quitch.biggergw/zoom.js`
 
 Anything not listed there reaches the game only by file shadowing (below). Both
-scene files follow the same shape: a `biggerGalacticWarLoaded` guard var so a
-double-load is a no-op, and a `try`/`catch` that logs the error and its JSON to the
-console rather than letting an exception escape into the scene.
+scene files are a bare `try`/`catch` at file top level that logs the error and its
+JSON to the console rather than letting an exception escape into the scene.
 
 ### Galaxy sizes are index-aligned across three places
 
