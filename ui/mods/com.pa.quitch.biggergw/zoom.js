@@ -5,5 +5,5 @@ try {
   });
 } catch (e) {
   console.error(e);
-  console.error(JSON.stringify(e));
+  console.error("Bigger Galactic War: " + (e.stack || e.message || e));
 }
