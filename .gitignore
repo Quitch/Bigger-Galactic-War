@@ -1,4 +1,8 @@
-
-*.dict
+# IDE
 .vscode/settings.json
+
+# LLM
+.claude/settings.local.json
+
+# Node.js tooling (lint/test only - the mod itself has no build step)
 node_modules/
