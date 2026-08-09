@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.3.0 - 2026-08-09
+
+- Updated for the Co-op Galactic War release
+- Marked the mod as required for all players in co-op wars
+
 ## v1.2.0 - 2021-08-06
 
 - Fixed large galaxies starting upside down

@@ -9,3 +9,5 @@ This mod can be installed via the in-game Community Mod manager.
 ## How To Use
 
 Start a new Galactic War and you will find the new galaxy sizes on the drop down menu.
+
+In co-op Galactic War all players must have this mod installed to join the war.
