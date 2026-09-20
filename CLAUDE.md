@@ -123,6 +123,13 @@ file, and shadowing should stay a last resort.
   write ES5, and assume the globals declared there (`requireGW`, `locTree`,
   `model`, `_`, plus browser/jQuery/AMD).
 - `curly: ["error", "all"]` is the one rule added on top of `js/recommended`.
+- The `eslint-plugin-lodash` `v3` rules apply to `ui/**` only (`_` is a PA runtime
+  global). Every non-`prefer-*` rule is on; of the `prefer-*` rules only
+  `prefer-get`, `prefer-includes`, and `prefer-startswith` are kept, where the
+  lodash method stands in for a post-ES5 feature Chrome 40 lacks. ESLint is held at
+  9.x because that plugin calls `context.getSourceCode`, which ESLint 10 removed,
+  and `eslint-plugin-es-x` is held at 9.x for the same reason (its 10.x needs
+  ESLint >= 10.6).
 - Prettier is applied to the whole repo including the shadowed system files
   (that reformatting is already committed — don't revert it, and don't mistake it
   for a behavioural change when diffing against the base game).
