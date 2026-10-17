@@ -89,7 +89,7 @@ base files (everything else is Prettier reformatting):
 1. **`Players` bands.** Base ships four template groups per file, but the last two
    are banded `[0, 0]` and can never match, so their (larger) systems are dead
    data. This mod re-bands all four to `[0,2] / [3,3] / [4,4] / [5,40]` to bring
-   them into play. `template-loader.js` picks a group with `_.find` — first match
+   them into play, the fourth in co-op only (below). `template-loader.js` picks a group with `_.find` — first match
    wins — so keep the bands ascending and non-overlapping. `gw_galaxy.js` derives
    a system's player count from how deep it sits in the galaxy
    (`Math.floor(starPct * 2.25 + 2)`), plus a co-op bonus of one per extra human
