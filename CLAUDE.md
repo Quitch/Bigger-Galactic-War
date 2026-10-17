@@ -88,13 +88,14 @@ base files (everything else is Prettier reformatting):
 
 1. **`Players` bands.** Base ships four template groups per file, but the last two
    are banded `[0, 0]` and can never match, so their (larger) systems are dead
-   data. This mod re-bands all four to `[0,2] / [2,3] / [3,4] / [4,40]` to bring
+   data. This mod re-bands all four to `[0,2] / [3,3] / [4,4] / [5,40]` to bring
    them into play. `template-loader.js` picks a group with `_.find` — first match
-   wins — so the bands must stay in ascending order and may overlap at the seams
-   only the way they do now. `gw_galaxy.js` derives a system's player count from
-   how deep it sits in the galaxy (`Math.floor(starPct * 2.25 + 2)`), so a higher
-   `Players` band means "appears deeper into the galaxy", not "more human
-   players".
+   wins — so keep the bands ascending and non-overlapping. `gw_galaxy.js` derives
+   a system's player count from how deep it sits in the galaxy
+   (`Math.floor(starPct * 2.25 + 2)`), plus a co-op bonus of one per extra human
+   player, so a higher `Players` band means "appears deeper into the galaxy", not
+   "more human players". A solo war only produces counts 2, 3 and 4, so the fourth
+   group (the largest systems) is co-op only by design.
 2. **Planet radius caps.** Solid-planet `Radius` upper bounds were pulled down to
    800 (`[900,1000]` → `[700,800]`, `[800,1000]` → `[650,750]`) because huge
    planets are slow to generate. The `Radius: [1500, 1500]` entries are gas giants
