@@ -138,7 +138,7 @@ define([
     ],
   },
   {
-    Players: [2, 3],
+    Players: [3, 3],
     Systems: [
       {
         Planets: [
@@ -351,7 +351,7 @@ define([
     ],
   },
   {
-    Players: [3, 4],
+    Players: [4, 4],
     Systems: [
       {
         Planets: [
@@ -785,7 +785,7 @@ define([
     ],
   },
   {
-    Players: [4, 40],
+    Players: [5, 40],
     Systems: [
       {
         Planets: [
