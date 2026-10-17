@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Clarified that the largest systems only appear in co-op wars
+
 ## v1.2.0 - 2021-08-06
 
 - Fixed large galaxies starting upside down
