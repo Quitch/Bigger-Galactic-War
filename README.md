@@ -12,7 +12,7 @@ Start a new Galactic War and you will find the new galaxy sizes on the drop down
 
 ## License
 
-This mod is licensed under [CC BY 4.0](LICENSE), with two exceptions. The following files are derived from Planetary Annihilation code owned by Uber Entertainment, and CC BY 4.0 does not apply to them:
+This mod is licensed under [CC BY 4.0](LICENSE), with two exceptions. The following files are derived from Planetary Annihilation code, created by Uber Entertainment and owned by Planetary Annihilation Inc. since 2018. CC BY 4.0 does not apply to them, and they remain under their owner's terms:
 
 - `ui/main/game/galactic_war/shared/js/systems/pa-normal.js`
 - `ui/main/game/galactic_war/shared/js/systems/titans-normal.js`
