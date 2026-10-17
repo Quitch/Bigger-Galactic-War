@@ -10,6 +10,10 @@ This mod can be installed via the in-game Community Mod manager.
 
 Start a new Galactic War and you will find the new galaxy sizes on the drop down menu.
 
+## Compatibility
+
+Galactic War Overhaul replaces the TITANS star systems with its own. When both mods are enabled, a TITANS war uses Galactic War Overhaul's star systems, so this mod's larger systems and planet size limits do not apply. The new galaxy sizes still work.
+
 ## License
 
 This mod is licensed under [CC BY 4.0](LICENSE), with two exceptions. The following files are derived from Planetary Annihilation code, created by Uber Entertainment and owned by Planetary Annihilation Inc. since 2018. CC BY 4.0 does not apply to them, and they remain under their owner's terms:
